@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+
+}
+
+.back {
+  height: 400px;
+  width: 40%;
+  background-color: grey;
+  margin-left: 20%;
+}
+
+.box {
+  height: 20%;
+  width: 20%;
+  background-color: white;
+
+}
+
+div div p {
+  color:red;
+  text-align: Center;
+
+
+}
+
+.box {
+  display: inline-block;
+  margin: 5%;
+
+}
