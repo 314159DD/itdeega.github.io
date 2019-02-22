@@ -36,12 +36,21 @@ div div p {
 
 }
 
+#faceback{
+  height: 450px;
+  width: 450px;
+  background-color: black;
+  position: relative;
+  left: 550px;
+}
+
 #face{
   height: 400px;
   width: 400px;
   background-color: olivedrab;
-  position: relative;
-  left: 550px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
 }
 
 #eye1 {
