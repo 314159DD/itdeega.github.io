@@ -24,8 +24,6 @@ body {
   height:50px;
   background-color: #0A122A;
   position: relative;
-
-
 }
 
 .header-nav > img {
@@ -36,12 +34,40 @@ body {
 .header-nav > p {
   font-size: 50px;
   display: inline-block;
-  color: white;
-  margin-top: 0;
+  color: #FBFAF8;
+  margin: 0;
   position:absolute;
   right:10px;
-  
 }
+.header-nav > ul {
+  display: inline-block;
+  position: absolute;
+  left: 20rem;
+}
+
+.header-nav > ul > li {
+  display: inline-block;
+  margin-right: 1.5rem;
+
+}
+
+.header-nav > ul > li > a:link{
+  text-decoration: none;
+  color: #FBFAF8;
+}
+.header-nav > ul > li > a:hover{
+  text-decoration: none;
+  color: #826754;
+}
+.header-nav > ul > li > a:active{
+  text-decoration: none;
+  color: #E7DECD;
+}
+.header-nav > ul > li > a:visited{
+  text-decoration: none;
+  color: #FBFAF8;
+}
+
 /* <<< NAVIGATION >>> */
 
 .back {
