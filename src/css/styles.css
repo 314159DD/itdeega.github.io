@@ -60,7 +60,7 @@ body {
 
 .header-nav > ul > li > a {
   display:inline-block;
-  margin-top: 1rem;
+  margin-top: .8rem;
   font-weight: bold;
 }
 
@@ -88,10 +88,11 @@ body {
 /* <<< NAVIGATION >>> */
 
 .back {
-  height: 200px;
-  width: 40%;
+  height: auto;
+  width: 96%;
   background-color: grey;
-  margin-left: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
 
 }
 
@@ -99,20 +100,16 @@ body {
   height: 20%;
   width: 20%;
   background-color: white;
+  display: inline-block;
+  margin: 5%;
 
 }
 
 div div p {
   color:red;
   text-align: Center;
-
-
-}
-
-.box {
-  display: inline-block;
-  margin: 5%;
-
+  height: 100%;
+  
 }
 
 #faceback{
