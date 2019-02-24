@@ -66,6 +66,7 @@ body {
 
 .active{
   background-color: #E7DECD;
+  color: #855556;
 }
 
 .header-nav > ul > li > a:link{
@@ -109,7 +110,7 @@ div div p {
   color:red;
   text-align: Center;
   height: 100%;
-  
+
 }
 
 #faceback{
