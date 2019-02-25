@@ -4,6 +4,7 @@ Pastel Brown:      #826754
 Pastel Brownred:   #855556
 Snow:              #FBFAF8
 Almond             #E7DECD
+Background:        #f0e9e1
 */
 
 * {
@@ -15,7 +16,7 @@ Almond             #E7DECD
 body {
   margin-top: 100px;
   width: 100%;
-  background-color: #E7DECD;
+  background-color: #f0e9e1;
   margin-top: 0;
   margin-left: 0;
 }
@@ -87,6 +88,17 @@ body {
 }
 
 /* <<< NAVIGATION >>> */
+
+/* <<< Header-Image>>> */
+.header-image {
+  background: url("../img/header.jpg");
+  width: 100%;
+  height: 0;
+  padding-top: 20.83%;
+  background-size: contain;
+
+}
+/* <<< Header-Image>>> */
 
 .back {
   height: auto;
